@@ -1,0 +1,87 @@
+   html,
+        body{
+            
+            font-family: "Lato", sans-serif;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        #map {
+            height: 100%;
+        }
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 25px;
+}
+
+.sidenav a {
+    padding: 10px 8px 8px 1px;
+    text-decoration: none;
+    font-size: 20px;
+    color:dimgrey;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color:black;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 3px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+input {
+    width: 70%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-position: 10px 10px; 
+    padding: 12px 20px 12px 5px;
+    margin:8px;
+}
+h2{
+    margin: 20px 10px 1px 8px ;
+   
+}
+
+li {
+    list-style: none;
+    margin-left: -20px
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.list-group-item {
+    margin: 0;
+    color: black;
+    border-left: solid;
+    border-bottom: solid;
+}
+
+.list-group-item:focus {
+    color: #fff;
+    background-color: rgb(34, 34, 34);
+    border-color: rgb(34, 34, 34);
+}
+
+.list-group-item:hover {
+    color: #f5f5f5;
+    background-color: #555;
+}
